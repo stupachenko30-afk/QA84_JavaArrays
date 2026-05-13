@@ -16,7 +16,7 @@ public class MainArraysTypes {
         float[] arf = {6.2F, 5.7F, 8.4F};
 
         MethodsArray.printArray(arbool);
-        System.out.println(MethodsArray1.arraySum(ars));
+        System.out.println(HomeWork.arraySum(ard));
 
     }
 }

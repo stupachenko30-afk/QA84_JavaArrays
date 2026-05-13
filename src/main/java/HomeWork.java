@@ -33,9 +33,9 @@ public class HomeWork {
         byte sum = 0;
 
 
-        for (int i = 0; i < ar.length; i++) {
-            if (ar[i] == true) {
-                sum = sum + 1;
+        for (boolean b : ar) {
+            if (b == true) {
+                sum++;
 
             }
 
@@ -43,7 +43,6 @@ public class HomeWork {
 
         return sum;
     }
-}
+}// Не понимаю как в чем ошибка
 
 
-    }
