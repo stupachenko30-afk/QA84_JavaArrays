@@ -43,6 +43,58 @@ public class HomeWork {
 
         return sum;
     }
-}// Не понимаю как в чем ошибка
+}// //////////////////////////////
+
+      public static int maxValue(int[] ar){
+
+    int max = 0;
+    for ( int i = 0; i< ar.length; i++){
+        if (ar[i] > max)
+        max = ar[i];
+
+    }
+
+return max;
+
+      }
 
 
+
+
+public static char maxValue(char[] ar) {
+
+    char max = 0;
+
+    for (char sym: ar) {
+
+        if (sym < max) {
+            max = sym;
+        }
+    }
+
+    return max;
+}
+
+
+
+
+public static int evensSum(int[] ar) {
+
+    int sum = 0;
+
+    for (int i = 0; i < ar.length; i++) {
+
+        if (ar[i] % 2 == 0) {
+            sum++;
+        }
+    }
+
+    return sum;
+}
+
+
+
+public static int minPositiveValue(int[] ar){
+
+
+}
