@@ -56,6 +56,20 @@ public class HomeWork {
 
 return max;
 
+      /*    public static int maxValue(int[] ar){
+
+              int max = ar[0];
+              for (int num; ar)
+              }
+              if (max > num)
+              max = num;
+       */
+          /*
+int[] ar = {-9,2,6,4,8,9,3};
+int res = MethodsHomeWork2.maxValue(ar);
+System.out.println("max = "+ res);
+           */
+
       }
 
 
@@ -74,7 +88,19 @@ public static char maxValue(char[] ar) {
 
     return max;
 }
+/*
+public static char maxValue(char[] ar) {
 
+    char max = ar[0];
+    for (char sym: ar)
+    if (sym < max)
+    max = sym;
+
+ */
+/*
+char[] arc = {'j', 'n', 'b'}
+System.out.println("max = "MethodsHomeWork2.maxValue(arc));
+ */
 
 
 
@@ -82,19 +108,33 @@ public static int evensSum(int[] ar) {
 
     int sum = 0;
 
-    for (int i = 0; i < ar.length; i++) {
+    for (int i = 0; i < ar.length; i++) { //for (int num: ar)
 
-        if (ar[i] % 2 == 0) {
-            sum++;
+        if (ar[i] % 2 == 0) { // (num %2 ==0)
+            sum++;  //sum +=num;
         }
     }
 
     return sum;
 }
-
+/* int res = MethodsHomeWork.evensSum(ar);
+sout ("Evens sum = " + res);
+ */
 
 
 public static int minPositiveValue(int[] ar){
 
-
+int min = -1; // min=0;
+for (int num: ar){
+    if (num >0){
+        if (min ==-1 || num < min)  // || - пайт (или)
+            min = num;
+    }
 }
+return  min;
+}
+/*
+ar -> [-9][2][5][-4][1][-8]
+       num
+       min =1
+ */
